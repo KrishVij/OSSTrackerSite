@@ -1,7 +1,45 @@
+body {
+
+	margin: 0;
+}
+.MainBody{
+
+	border: 5px solid red;
+}
 .MainImage {
 
 	display: block;
 	width: 200px;
 	height: 200px;
-	margin: 0 auto;
+	margin: 0 auto 40px auto;
 }
+
+.SearchDialog {
+
+	display: flex;
+	justify-content: center;
+	gap: 0px;
+}
+
+.VerticalLine {
+
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 1px;
+	background-color: black;
+	height: 100vh;
+	margin: 0;
+}
+
+.LineContainer {
+
+	position: relative;
+}
+
+.ColoredText {
+
+	background-color: purple;
+	color: gold;
+}
+
