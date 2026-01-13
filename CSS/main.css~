@@ -1,7 +1,0 @@
-.MainImage {
-
-	dispaly: block;
-	width: 300;
-	height: 300;
-	margin: 0 auto;
-}
