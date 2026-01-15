@@ -136,19 +136,13 @@ h1 {
 	text-align: left;
 }
 
-.HowItWorksSection {
-
-	display: flex;
-	justify-content: space-between;
-}
-
 .HowItWorksBlock {
 
 	display: flex;
-	flex-direction: coloumn;
+	flex-direction: column;
 }
 
-.HowItWorksBlock:last-child {
+.HowItWorksBlock2 {
 
 	text-align: right;
 }
@@ -160,7 +154,7 @@ h1 {
 	padding: 50px 0 0 20px; 
 	font-size: 48px;
 	font-weight: 700;
-	margin-bottom: 16px;
+	margin-bottom: 10px;
 }
 
 .DescriptionOfTrack {
@@ -178,6 +172,35 @@ h1 {
 	padding: 50px 0 0 20px; 
 	font-size: 48px;
 	font-weight: 700;
-	margin-bottom: 16px;
+	padding: 0px 40px 0 10px; 
+	margin-bottom: 10px; 
+	/* margin-left: auto; */
+}
+
+.DescriptionOfMonitor {
+
+	font-family: 'Inter', system-ui, -apple-system, sans-serif;
+	font-weight: 600;
+	line-height: 1.6;
+	padding: 0px  20px 0px 0px;
+}
+
+.HowItWorksSection-Alert {
+
+	flex-direction: column;
+	font-family: 'Inter', system-ui, -apple-system, sans-serif;
+	padding: 50px 0 0 20px; 
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.DescriptionOfAlert {
+
+	flex-direction: column;
+	font-family: 'Inter', system-ui, -apple-system, sans-serif;
+	font-weight: 600;
+	line-height: 1.6;
+	padding: 0px  0px 0px 20px;
 }
 
