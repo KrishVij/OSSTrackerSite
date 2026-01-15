@@ -134,6 +134,7 @@ h1 {
 	background: #f6f8fa;
 	color: #1a1a2e;
 	text-align: left;
+	margin-bottom: 30px;
 }
 
 .HowItWorksBlock {
@@ -174,7 +175,7 @@ h1 {
 	font-weight: 700;
 	padding: 0px 40px 0 10px; 
 	margin-bottom: 10px; 
-	/* margin-left: auto; */
+	margin-left: auto; 
 }
 
 .DescriptionOfMonitor {
@@ -202,5 +203,43 @@ h1 {
 	font-weight: 600;
 	line-height: 1.6;
 	padding: 0px  0px 0px 20px;
+	margin-bottom: 20px;
 }
 
+.FirstCardContainer {
+
+	display: flex;
+}
+
+.FirstCard {
+
+	text-align: left;
+	background: #ffffff;
+	color: #000000;
+	border-radius: 12px;
+	padding: 55px;
+	width: 900px;
+	height: 350px;
+	margin: 0 auto;
+}
+
+.FirstCardText {
+
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 40px;
+	font-weight: 500;
+}
+
+.FirstCardHeading1 {
+
+	font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 50px;
+	font-weight: 800;
+}
+
+.FirstCardHeading2 {
+
+	font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 50px;
+	font-weight: 800;
+}
